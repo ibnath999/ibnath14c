@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, i;
+    int n;
     printf("Enter number of processes: ");     scanf("%d", &n);
 
     int arrival[n], burst[n], completion[n], waiting[n], turnaround[n];
